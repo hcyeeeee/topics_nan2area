@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta property="og:title" content="【2023立委補選】決戰南投第2選區！即時新聞、選情戰況專區 - 民視數位專題" />
+  <meta property="og:site_name" content="【2023立委補選】決戰南投第2選區！即時新聞、選情戰況專區 - 民視數位專題" />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta property="og:url" content="https://www.ftvnews.com.tw/topics/nan2area" />
+  <meta property="og:image" content="https://www.ftvnews.com.tw/topics/nan2area/img/meta.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:description"
+    content="南投縣第2選區立委補選3/4登場，將由蔡培慧、林明溱、魯昱君、陳聰鑑出戰！原任第10屆立法委員的許淑華因當選南投縣縣長，因此必須進行立委補選。民視新聞網彙整最新新聞、候選人政見與選情資訊，並將於當天即時呈現開票結果。" />
+  <meta property="fb:app_id" content="157389381527660" />
+  <meta http-equiv="PRAGMA" content="NO-CACHE" />
+  <meta http-equiv="EXPIRES" content="0" />
+  <meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn.ftvnews.com.tw/client/images/favicons/favicon.ico" />
+  <title>【2023立委補選】決戰南投第2選區！即時新聞、選情戰況專區 - 民視數位專題</title>
+  <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="./script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/60a0584099.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101119806-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
+    gtag('config', 'UA-101119806-1')
+  </script>
+  <script src="https://ua.realtimely.io/script.js" data-site="FTV" defer></script>
+</head>
+<style>
+  a {
+    text-decoration: none !important;
+  }
+</style>
+
+<body>
+  <div class="header_section">
+    <div class="header_logo">
+      <a href="https://www.ftvnews.com.tw/" target="_blank" style="color: black">
+        <img class="logo" src="https://www.ftvnews.com.tw/topics/nan2area/img/logo.png" alt="民視新聞網" />
+      </a>
+    </div>
+    <div class="header_content">
+      <a href="#hotnews" style="color:#7630D8 ;">最新新聞</a>
+      <a href="#cand" style="color:#7630D8 ;">補選名單</a>
+      <a href="#cand" style="color:#7630D8 ;">立委新聞</a>
+      <a href="#hotvideo" style="color:#7630D8 ;"> 精選影音</a>
+      <a href="https://www.ftvnews.com.tw/topics/election2022" style="color:#7630D8 ;" target="_blank">2022九合一大選結果</a>
+    </div>
+    <div class="sectiontab  mobile">
+      <!-- <a class="buttom2 buttom" href="#hotnews">最新新聞</a>
+      <a class="buttom3 buttom" href="#cand">
+        補選名單</a>
+      <a class="buttom4 buttom" href="#hotvideo">影音專區</a> -->
+      <a class="buttom2 buttom" href="#open">開票結果</a>
+      <a class="buttom3 buttom" href="#cand">
+        補選名單</a>
+      <a class="buttom4 buttom" href="#hotnews">最新新聞</a>
+    </div>
+  </div>
+  <div class="mainbg">
+    <picture>
+      <source srcset="https://www.ftvnews.com.tw/topics/nan2area/img/banner_mobile.png" media="(max-width: 768px)" />
+      <img src="https://www.ftvnews.com.tw/topics/nan2area/img/banner.png" />
+    </picture>
+    <h1>立委補選</h1>
+  </div>
+  <div id="app"></div>
+  </div>
+  <div class="footer">
+    <p>Copyright © 2023 民視新聞網路部社群中心</p>
+    <br class="mobile">
+    <br class="mobile">
+  </div>
+
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    // var box = document.getElementsByClassName('share');
+    // window.addEventListener('scroll', function () {
+    //   if (box.scrollTop > 300) {
+    //     box.style.display = "none";
+    //   }
+    // });
+    function copy() {
+    }
+    function openCand(evt, candName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(candName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+    document.getElementById("defaultOpen").click();
+
+
+    let arr = [];
+    axios.get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=蔡培慧&Page=1&sp=6').then(function (response) {
+
+      arr = response.data.ITEM;
+      renderData();
+    })
+
+    function renderData() {
+
+      const cand_news_content = document.querySelector('.cand_news_content');
+      cand_news_content.innerHTML = `<a href="https://www.ftvnews.com.tw/news/detail/${arr[0].ID}" target="_blank"><img class="cand_pic" src="${arr[0].Image}" alt=""></a>
+        <a href="https://www.ftvnews.com.tw/news/detail/${arr[0].ID}" target="_blank">
+          <p class="cand_content">${arr[0].Title}</p>
+          <p class="cand_date">${arr[0].CreateDate}</p>
+       </a>
+      `
+      const cand_news_content1 = document.querySelector('.cand_news_content1');
+      cand_news_content1.innerHTML = `<a href="https://www.ftvnews.com.tw/news/detail/${arr[1].ID}" target="_blank"><img class="cand_pic" src="${arr[1].Image}" alt=""></a>
+        <a href="https://www.ftvnews.com.tw/news/detail/${arr[1].ID}" target="_blank">
+        <p class="cand_content">${arr[1].Title}</p>
+        <p class="cand_date">${arr[1].CreateDate}</p></a>
+      `
+      const cand_news_content2 = document.querySelector('.cand_news_content2');
+      cand_news_content2.innerHTML = `<a href="https://www.ftvnews.com.tw/news/detail/${arr[2].ID}" target="_blank"><img class="cand_pic" src="${arr[2].Image}" alt="">
+            <p class="cand_content">${arr[2].Title}</p>
+            <p class="cand_date">${arr[2].CreateDate}</p>
+        </a>`
+      const cand_news_content3 = document.querySelector('.cand_news_content3');
+      cand_news_content3.innerHTML = `<a href="https://www.ftvnews.com.tw/news/detail/${arr[0].ID}" target="_blank"><img class="cand_pic" src="${arr[0].Image}" alt="">
+            <p class="cand_content">${arr[3].Title}</p>
+            <p class="cand_date">${arr[3].CreateDate}</p>
+        </a>`
+      const cand_news_content4 = document.querySelector('.cand_news_content4');
+      cand_news_content4.innerHTML = `<a href="https://www.ftvnews.com.tw/news/detail/${arr[1].ID}" target="_blank"><img class="cand_pic" src="${arr[1].Image}" alt="">
+            <p class="cand_content">${arr[4].Title}</p>
+            <p class="cand_date">${arr[4].CreateDate}</p>
+        </a>`
+      const cand_news_content5 = document.querySelector('.cand_news_content5');
+      cand_news_content5.innerHTML = `<a href="https://www.ftvnews.com.tw/news/detail/${arr[2].ID} target="_blank"><img class="cand_pic" src="${arr[2].Image}" alt="">
+            <p class="cand_content">${arr[5].Title}</p>
+            <p class="cand_date">${arr[5].CreateDate}</p>
+        </a>`
+    }
+
+
+    let arr4 = [];
+    axios.get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=政治&Page=1&sp=6').then(function (response) {
+      arr4 = response.data.ITEM;
+      renderData4();
+    })
+    function renderData4() {
+      const cand_news_content = document.querySelector('.cand_news_content15');
+      cand_news_content.innerHTML = `
+            <a href="https://www.ftvnews.com.tw/news/detail/${arr4[0].ID}" target="_blank">
+                <img class="car_pic" src="${arr4[0].Image}" alt="">
+                  <p class="big_content">${arr4[0].Title}</p>
+                  <p class="cand_date">${arr4[0].CreateDate}</p>
+         
+        </a>`
+      const cand_news_content1 = document.querySelector('.cand_news_content16');
+      cand_news_content1.innerHTML = `<img class="car_pic" src="${arr4[1].Image}" alt="">
+            <a href="https://www.ftvnews.com.tw/news/detail/${arr4[1].ID}" target="_blank">
+                <p class="big_content">${arr4[1].Title}</p>
+                <p class="cand_date">${arr4[1].CreateDate}</p>
+        </a>`
+      const cand_news_content2 = document.querySelector('.cand_news_content17');
+      cand_news_content2.innerHTML = `
+            <a href="https://www.ftvnews.com.tw/news/detail/${arr4[2].ID}" target="_blank">
+                <img class="car_pic" src="${arr4[2].Image}" alt="">
+                <p class="big_content">${arr4[2].Title}</p>
+                <p class="cand_date">${arr4[2].CreateDate}</p>
+        </a>`
+      const cand_news_content3 = document.querySelector('.cand_news_content18');
+      cand_news_content3.innerHTML = `
+            <a href="https://www.ftvnews.com.tw/news/detail/${arr4[3].ID}" target="_blank">
+                <img class="car_pic1" src="${arr4[3].Image}" alt="">
+            <p class="cand_content">${arr4[3].Title}</p>
+            <p class="cand_date">${arr4[3].CreateDate}</p>
+        </a>`
+      const cand_news_content4 = document.querySelector('.cand_news_content19');
+      cand_news_content4.innerHTML = `
+            <a href="https://www.ftvnews.com.tw/news/detail/${arr4[4].ID}" target="_blank">
+                <img class="car_pic1" src="${arr4[4].Image}" alt="">
+            <p class="cand_content">${arr4[4].Title}</p>
+            <p class="cand_date">${arr4[4].CreateDate}</p>
+        </a>`
+    }
+
+
+
+
+
+    (function () {
+      // 一鍵複製本站網址
+      document
+        .querySelector(".localurl-style")
+        .addEventListener("click", function () {
+          let e = document.createElement("input"),
+            t = window.location.href + "?utm_source=WHpage&utm_medium=copybutton";
+          document.body.appendChild(e),
+            (e.value = t),
+            e.select(),
+            document.execCommand("copy"),
+            document.body.removeChild(e),
+            alert("網址複製成功，立刻分享給你的好友吧!");
+        }),
+        // 燈箱圖片輪播宣告
+        new Splide("#splide_protect", { rewind: !0 }).mount(),
+        new Splide("#splide_prevent", { rewind: !0 }).mount();
+      new Splide("#splide_vaccine", { rewind: !0 }).mount();
+    })();
+    // jQuery寫法 不需要動
+    $(document).ready(function () {
+      // 一鍵置頂
+      $('#BackTop').click(function (e) {
+        $('html, body').animate({ scrollTop: 0 }, '1000')
+      }),
+        $(window).scroll(function () {
+          $(this).scrollTop() < 100 ? $('#BackTop').stop().fadeOut('fast') : $('#BackTop').stop().fadeIn('fast')
+        }),
+
+        $(window).on('scroll', function () {
+          var w = $(document).scrollTop();
+          if (w > 600) {
+            $("#Share").show();
+          } else {
+            $("#Share").hide();
+          }
+        })
+
+    })
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <!-- Hotjar Tracking Code for https://www.ftvnews.com.tw/topics/ -->
+  <script>
+      (function (h, o, t, j, a, r) {
+        h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+        h._hjSettings = { hjid: 3196440, hjsv: 6 };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script'); r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+
+</body>
+
+</html>

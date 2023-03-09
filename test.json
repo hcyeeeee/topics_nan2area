@@ -1,0 +1,70 @@
+{
+    "T1": {
+        "type": "01",
+        "typeName": "縣市長",
+        "detail": [
+            {
+                "cityNo": "B16",
+                "cityName": "南投市",
+                "tickets": [
+                    {
+                        "candNo": 1,
+                        "candName": "蔡培慧",
+                        "party": "民主進步黨",
+                        "partym": "民進黨",
+                        "ticket": 45218,
+                        "winner": ""
+                    },
+                    {
+                        "candNo": 2,
+                        "candName": "林明溱",
+                        "party": "中國國民黨",
+                        "partym": "國民黨",
+                        "ticket": 43293,
+                        "winner": ""
+                    },
+                    {
+                        "candNo": 3,
+                        "candName": "魯昱君",
+                        "party": "國家公義運動黨",
+                        "partym": "國家公義運動黨",
+                        "ticket": 421,
+                        "winner": ""
+                    },
+                    {
+                        "candNo": 4,
+                        "candName": "陳聰鑑",
+                        "party": "無黨籍",
+                        "partym": "無黨籍",
+                        "ticket": 2528,
+                        "winner": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "T3": {
+        "type": "99",
+        "typeName": "公投",
+        "detail": [
+            {
+                "gontoNo": "F1",
+                "gontoName": "18歲公民權修憲複決公投",
+                "tickets": [
+                    {
+                        "candNo": 1,
+                        "candName": "同意",
+                        "ticket": 5647102,
+                        "winner": ""
+                    },
+                    {
+                        "candNo": 2,
+                        "candName": "不同意",
+                        "ticket": 5016427,
+                        "winner": "*"
+                    }
+                ]
+            }
+        ]
+    }
+}
